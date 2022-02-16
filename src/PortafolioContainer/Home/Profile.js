@@ -1,4 +1,5 @@
 import React from 'react';
+import Typical from 'react-typical';
 
 export default function Profile(){
     return(
@@ -30,7 +31,21 @@ export default function Profile(){
                     <span className='primary-text'>
                         {" "}
                         <h1>
-                            
+                            {" "}
+                            <Typical loop={Infinity}
+                                steps ={[
+                                    "Ethusiastiv Dev 👾",
+                                     1000,
+                                     "Full Stack Developer 👨‍💻",
+                                     1000,
+                                     "Angular",
+                                     1000,
+                                     "React",
+                                     1000,
+                                     "Java ☕",
+                                     1000
+                                    ]}>
+                            </Typical>
                         </h1>
                     </span>
                 </div>
