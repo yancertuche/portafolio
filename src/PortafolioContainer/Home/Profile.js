@@ -34,7 +34,7 @@ export default function Profile(){
                             {" "}
                             <Typical loop={Infinity}
                                 steps ={[
-                                    "Ethusiastic Dev 👾",
+                                    "Enthusiastic Dev 👾",
                                      1600,
                                      "Full Stack Developer 👨‍💻",
                                      1600,
@@ -48,7 +48,7 @@ export default function Profile(){
                             </Typical>
                         </h1>
                         <span className='profile-role-tagline'>
-                            I'm always looking for add value on my tasks so I keep learning and unlearnig to improve my skills
+                            I'm always looking for add value on my role so I keep learning and unlearnig to improve my skills
                         </span>
                     </span>
                 </div>
