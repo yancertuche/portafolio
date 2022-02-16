@@ -35,19 +35,30 @@ export default function Profile(){
                             <Typical loop={Infinity}
                                 steps ={[
                                     "Ethusiastiv Dev 👾",
-                                     1000,
+                                     1500,
                                      "Full Stack Developer 👨‍💻",
-                                     1000,
+                                     1500,
                                      "Angular",
-                                     1000,
+                                     1500,
                                      "React",
-                                     1000,
+                                     1500,
                                      "Java ☕",
-                                     1000
+                                     1500
                                     ]}>
                             </Typical>
                         </h1>
+                        <span className='profile-role-tagline'> Soy un programador</span>
                     </span>
+                </div>
+                <div className='profile-options'>
+                    <button className='btn primary-btn'>
+                        {" "}Hire Me{" "}
+                    </button>
+                    <a href='YanCertucheCV.pdf' download='YanCertuche.pdf'>
+                        <button className='btn highlighted-btn'>
+                            {" "}Get Resume{" "}
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
