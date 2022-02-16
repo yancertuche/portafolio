@@ -34,20 +34,22 @@ export default function Profile(){
                             {" "}
                             <Typical loop={Infinity}
                                 steps ={[
-                                    "Ethusiastiv Dev 👾",
-                                     1500,
+                                    "Ethusiastic Dev 👾",
+                                     1600,
                                      "Full Stack Developer 👨‍💻",
-                                     1500,
-                                     "Angular",
-                                     1500,
-                                     "React",
-                                     1500,
+                                     1600,
+                                     "Angular 😎",
+                                     1600,
+                                     "React 😃",
+                                     1600,
                                      "Java ☕",
-                                     1500
+                                     1600
                                     ]}>
                             </Typical>
                         </h1>
-                        <span className='profile-role-tagline'> Soy un programador</span>
+                        <span className='profile-role-tagline'>
+                            I'm always looking for add value on my tasks so I keep learning and unlearnig to improve my skills
+                        </span>
                     </span>
                 </div>
                 <div className='profile-options'>
