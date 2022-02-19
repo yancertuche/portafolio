@@ -1,5 +1,6 @@
 import React from 'react';
 import Typical from 'react-typical';
+import './Profile.css';
 
 export default function Profile(){
     return(
@@ -7,18 +8,20 @@ export default function Profile(){
             <div className='profile-parent'>
                 <div className='profile-datails'>
                     <div className='colz'>
-                        <a href='https://www.facebook.com/YanCarlosCertuche/'>
-                            <i className='fa fa-facebook-square'></i>
-                        </a>
-                        <a href='https://github.com/yancertuche'>
-                            <i className='fa fa-github'></i>
-                        </a>
-                        <a href='https://www.instagram.com/yancarlos.cg/'>
-                            <i className='fa fa-instagram'></i>
-                        </a>
-                        <a href='https://twitter.com/YanCertuche'>
-                            <i className='fa fa-twitter'></i>
-                        </a>
+                        <div className='colz-icon'>
+                            <a href='https://www.facebook.com/YanCarlosCertuche/'>
+                                <i className='fa fa-facebook-square'></i>
+                            </a>
+                            <a href='https://github.com/yancertuche'>
+                                <i className='fa fa-github'></i>
+                            </a>
+                            <a href='https://www.instagram.com/yancarlos.cg/'>
+                                <i className='fa fa-instagram'></i>
+                            </a>
+                            <a href='https://twitter.com/YanCertuche'>
+                                <i className='fa fa-twitter'></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className='profile-details-name'>
@@ -35,15 +38,15 @@ export default function Profile(){
                             <Typical loop={Infinity}
                                 steps ={[
                                     "Enthusiastic Dev 👾",
-                                     1600,
+                                     1800,
                                      "Full Stack Developer 👨‍💻",
-                                     1600,
+                                     1800,
                                      "Angular 😎",
-                                     1600,
+                                     1800,
                                      "React 😃",
-                                     1600,
+                                     1800,
                                      "Java ☕",
-                                     1600
+                                     1800
                                     ]}>
                             </Typical>
                         </h1>
@@ -62,6 +65,11 @@ export default function Profile(){
                         </button>
                     </a>
                 </div>
+            </div>
+            <div className="profile-picture">
+                    <div className='profile-picture-background'>
+
+                    </div>
             </div>
         </div>
     )
