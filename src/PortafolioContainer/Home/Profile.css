@@ -138,6 +138,9 @@
         margin: 0 !important;
     }
 
+    .colz .colz-icon i{
+        font-size: 15px;
+    }
     .profile-options{
         display: flex;
         justify-content: space-between;
