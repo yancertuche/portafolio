@@ -40,7 +40,7 @@
 }
 
 .profile-role-tagline{
-    font-size: 22px;
+    font-size: 20px;
     margin: 5px 0 0 0;
     font-family: "Poppins Light" ;
 }
@@ -73,7 +73,7 @@
     background-size: cover ;
     border-radius: 50%;
     background-repeat: no-repeat;
-    /*background-position: center;*/
+    background-position: center;
 }
 
 .profile-picture-background:hover{
@@ -90,4 +90,69 @@
 
 .colz .colz-icon i:hover{
     transform: scale(1.5);
+}
+
+@media screen and (max-width : 1110px){
+    .profile-picture{
+      margin: 0 0px 0 80px;
+    }
+  
+    .profile-details-name{
+      font-size: 12px;
+    }
+
+    .profile-role-tagline{
+        font-size: 12px;
+    }
+  
+    .profile-details-role .primary-text{
+      font-size: 12px;
+    }
+  
+    .profile-options .btn{
+      width: 120px;
+      padding: 11px;
+      z-index: 700;
+      font-size: 12px;
+    }
+}
+
+@media screen and (max-width : 910px){
+    .profile-picture{
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+
+    .profile-details-role{
+        margin: 0 10px 0 10px;
+    }
+}
+
+@media screen and (max-width : 810px) {
+    .profile-container{
+        flex-direction: column-reverse;
+        margin: 0 0 0 0;
+    }
+    .profile-picture{
+        margin: 0 !important;
+    }
+
+    .profile-options{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile-details{
+        margin: 25px 0 0 0;
+    }
+    
+    .profile-options .highlighted-btn{
+        margin: 0 !important;
+    }
+
+    .profile-options, .profile-details-role{
+        text-align: center;
+        margin: 0 10px 0 10px;
+    }
 }
